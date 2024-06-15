@@ -1,0 +1,13 @@
+natsUrl = "nats://127.0.0.1:4222"
+port = ":9000"
+gatewayTopic = "registerService"
+dbUrl = "mongodb://localhost:27017/"
+
+[routes]
+    [routes.UserService]
+    address = "0.0.0.0:8880"
+
+[accesskey]
+    [accesskey.gatewayaccess]
+    accesskey = "ahbdhbdfodnndokfeen"
+
